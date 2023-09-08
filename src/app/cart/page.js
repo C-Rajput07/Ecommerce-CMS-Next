@@ -13,7 +13,7 @@ import { loadStripe } from "@stripe/stripe-js";
 
 function Cart() {
   const stripePromise = loadStripe(
-    "pk_test_51No3UxSIeeSgMEENBn3BG52uOdMAJgomk7iIGhKwDQqp3TBD3wVEFHqJFbyCaZmODo8GxyNYKF5gWBWb8WoUDJTn004utFad6x"
+    "YOUR STRIPE PUNISHABLE KEY"
   );
   const cart = useSelector((state) => state.cart.cart);
   const total = cart
